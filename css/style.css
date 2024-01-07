@@ -144,7 +144,7 @@
     text-align: center;
 }
 
-.join-container{
+.join-container {
     margin-bottom: 50px;
 }
 
@@ -155,7 +155,64 @@
     font-family: Inter;
 }
 
-#join span{
+#join span {
     color: #F00;
     font-family: Inter;
+}
+
+
+/* Offer Section Style */
+#offer {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px
+}
+
+.offer-column-1{
+    max-width: 30%;
+}
+
+.offer-column-3{
+    padding-left: 70px;
+}
+
+.offer-title {
+    margin: 0px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.offer-heading {
+    margin: 16px 0px 22px 0px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.offer-col-year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#offer .group-pic{
+    max-height: 360px;
+    border-radius: 50%;
+    outline: 10px solid #F00;
+    outline-offset: 20px;
 }
