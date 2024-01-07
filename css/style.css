@@ -1,4 +1,43 @@
 /* Common CSS */
-.container{
-    
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Banner Related Style */
+.banner {
+    margin: 60px 140px;
+    text-align: center;
+    background-image: url('../image/Banner_Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+
+}
+
+.banner-container{
+    height: 320px;
+    padding: 140px 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.wish {
+    color: #fff;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.page-title {
+    margin: auto;
+    color: #fff;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
 }
