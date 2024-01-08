@@ -245,29 +245,78 @@
     margin: 20px 300px 0px 0px;
 }
 
-.portfolio-row{
+.portfolio-row {
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    padding: 12px 0px ;
+    padding: 12px 0px;
 }
 
-#portfolio img{
+#portfolio img {
     border-radius: 18px;
     width: 30%;
 }
-#portfolio img:hover{
+
+#portfolio img:hover {
     transform: scale(1.1);
     border: 5px solid red;
     box-shadow: #070211;
 }
 
 /* Subscribe Section Style */
-#subscribe{
+#subscribe {
     background-color: #FFE6E6;
+    margin: 120px 140px;
 }
 
-.subscribe-container{
+.subscribe-container {
     padding: 80px 210px;
     text-align: center;
+}
+
+.subscribe-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 40px 0 0 22px;
+}
+
+.subscribe-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 22px 0 50px 0;
+}
+
+#subscribe form{
+    display: flex;
+    justify-content: center;
+}
+
+#subscribe .email {
+    width: 50%;
+    padding: 25px 30px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+
+#subscribe .subscribe-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+    width: 20%;
+    background-color: #F00;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
 }
